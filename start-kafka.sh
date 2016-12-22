@@ -1,8 +1,5 @@
 #!/bin/bash
 
-if [[ -z "$KAFKA_PORT" ]]; then
-    export KAFKA_PORT=9092
-fi
 if [[ -z "$KAFKA_BROKER_ID" ]]; then
     # By default auto allocate broker ID
     export KAFKA_BROKER_ID=-1
